@@ -1,6 +1,6 @@
 <?php
 
-chdir('C:\Program Files\Weka-3-8');
+// chdir('C:\Program Files\Weka-3-8');
 //$output3 = shell_exec('dir');
 //echo "<pre>$output3</pre>";
 	
@@ -13,7 +13,7 @@ chdir('C:\Program Files\Weka-3-8');
 	    $user_id = 29;
 	}
 
-	$cmd = "start cmd /c java -cp weka.jar weka.classifiers.functions.MultilayerPerceptron -t data/testcvs.arff -d model/test.model ^> sswp.txt";
+	// $cmd = "start cmd /c java -cp weka.jar weka.classifiers.functions.MultilayerPerceptron -t data/testcvs.arff -d model/test.model ^> sswp.txt";
 
 	//$cmd2 = "java -cp weka.jar weka.classifiers.functions.MultilayerPerceptron -t data/s1.arff ";
 	$anas1 = "java -cp weka.jar weka.classifiers.functions.MultilayerPerceptron -t dataset/".$user_id."/s1.arff ";
