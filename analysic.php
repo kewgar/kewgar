@@ -519,7 +519,7 @@
 <?php
 	$servername = "localhost";
 	$username = "root";
-	$password = "";
+	$password = "0898858370";
 	$dbname = "testweka";
 
 	// Create connection
