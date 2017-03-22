@@ -9,10 +9,12 @@ if (isset($_GET['user_id']))
         {
             $user_id = aa;
         }
-$user_id = aa;
+
 //chdir('/var/www/html/kewgar/dataset');
 $create2 = 'mkdir -p dataset/'.$user_id;
 exec($create2,$output);
+
+mkdir("/var/www/html/kewgar/dataset/".$user_id, 0700);
 
 // $uploads_dir = "dataset/".$user_id."/"; //Directory to save the file that comes from client application.
 // if ($_FILES["file"]["error"] == UPLOAD_ERR_OK) {
