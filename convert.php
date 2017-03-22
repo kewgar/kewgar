@@ -9,13 +9,13 @@
 		{
 		    $user_id = 29;
 		}
-		chdir('/var/www/html/kewgar');
-		$create = 'if not exist "dataset" mkdir "dataset"';
-		exec($create,$output);
+		// chdir('/var/www/html/kewgar');
+		// $create = 'if not exist "dataset" mkdir "dataset"';
+		// exec($create,$output);
 
-		chdir('/var/www/html/kewgar/dataset');
-		$create2 = 'if not exist "'.$user_id.'" mkdir "'.$user_id.'"';
-		exec($create2,$output);
+		// chdir('/var/www/html/kewgar/dataset');
+		// $create2 = 'if not exist "'.$user_id.'" mkdir "'.$user_id.'"';
+		// exec($create2,$output);
 
 		// $copy1 = 'copy "C:\Users\kewgar\AppData\Roaming\kewgar dataset\s1.csv" "C:\Program Files\Weka-3-8\dataset\"'.$user_id.'"\s1.csv"';
 		// exec($copy1,$output1);
