@@ -1,9 +1,9 @@
 <?php
 
 
-		if (isset($_GET['user_id'])) 
+		if (isset($_POST['user_id'])) 
 		{
-		    $user_id = $_GET['user_id'];
+		    $user_id = $_POST['user_id'];
 		} 
 		else 
 		{
