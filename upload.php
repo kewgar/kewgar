@@ -9,9 +9,9 @@ if (isset($_GET['user_id']))
         {
             $user_id = aa;
         }
-        
+
 chdir('/var/www/html/kewgar/dataset');
-$create2 = 'if not exist "'.$user_id.'" mkdir "'.$user_id.'"';
+$create2 = 'mkdir -p '.$user_id .'';
 exec($create2,$output);
 
 $uploads_dir = "dataset/".$user_id."/"; //Directory to save the file that comes from client application.
