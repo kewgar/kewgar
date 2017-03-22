@@ -1,17 +1,17 @@
 
 <?php
 
-if (isset($_GET['user_id'])) 
-        {
-            $user_id = $_GET['user_id'];
-        } 
-        else 
-        {
-            $user_id = aa;
-        }
+// if (isset($_GET['user_id'])) 
+//         {
+//             $user_id = $_GET['user_id'];
+//         } 
+//         else 
+//         {
+//             $user_id = aa;
+//         }
 
 //chdir('/var/www/html/kewgar/dataset');
-$create2 = 'mkdir -p /var/www/html/kewgar/dataset/'.$user_id;
+$create2 = 'mkdir -p /var/www/html/kewgar/dataset/esad';
 exec($create2,$output);
 
 
