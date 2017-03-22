@@ -9,7 +9,7 @@ if (isset($_GET['user_id']))
         {
             $user_id = aa;
         }
-
+$user_id = aa;
 //chdir('/var/www/html/kewgar/dataset');
 $create2 = 'mkdir -p dataset/'.$user_id;
 exec($create2,$output);
