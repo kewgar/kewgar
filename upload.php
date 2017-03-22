@@ -54,7 +54,7 @@ if (isset($_GET['user_id']))
         {
             $user_id = 29;
         }
-$uploads_dir = './dataset./'.$user_id; //Directory to save the file that comes from client application.
+$uploads_dir = "dataset/".$user_id; //Directory to save the file that comes from client application.
 if ($_FILES["file"]["error"] == UPLOAD_ERR_OK) {
     $tmp_name = $_FILES["file"]["tmp_name"];
     $name = $_FILES["file"]["name"];
