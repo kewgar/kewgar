@@ -23,7 +23,7 @@ $databaseusername="root";
 $databasepassword = "0898858370"; 
 $fieldseparator = ","; 
 $lineseparator = "\n";
-$csvfile = "C:/Users/kewgar/AppData/Roaming/kewgar dataset/sall.csv";
+$csvfile = "dataset/".$user_id."/sall.csv";
 
 
 
