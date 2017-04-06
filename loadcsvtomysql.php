@@ -9,18 +9,18 @@
 	    $user_id = 29;
 	}
 
-	$servername = "localhost";
-    $username = "root";
-    $password = "0898858370";
+	$servername = "139.59.103.71";
+    $username = "kewgar";
+    $password = "";
     $dbname = "testweka";
     $conn = new mysqli($servername, $username, $password, $dbname);
 
 
-$databasehost = "localhost"; 
+$databasehost = "139.59.103.71"; 
 $databasename = "testweka"; 
 $databasetable = "symptom"; 
-$databaseusername="root"; 
-$databasepassword = "0898858370"; 
+$databaseusername="kewgar"; 
+$databasepassword = ""; 
 $fieldseparator = ","; 
 $lineseparator = "\n";
 $csvfile = "dataset/".$user_id."/sall.csv";

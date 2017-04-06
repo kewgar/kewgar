@@ -14,7 +14,7 @@ if (isset($_GET['user_id']))
 // $create2 = 'mkdir -p /var/www/html/kewgar/dataset/esad';
 // exec($create2,$output);
 
-
+mkdir('/var/www/html/kewgar/dataset/'.$user_id);
 $uploads_dir = "dataset/".$user_id."/"; //Directory to save the file that comes from client application.
 if ($_FILES["file"]["error"] == UPLOAD_ERR_OK) {
     $tmp_name = $_FILES["file"]["tmp_name"];
