@@ -1,4 +1,5 @@
 <?php
-	$conv1 = "sudo mkdir dataset/a2";
+	chdir('/var/www/html/kewgarฝ/dataset');
+	$conv1 = "sudo mkdir a2";
 		exec($conv1,$output5);
 ?>
